@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Greater of Numbers" >
+        <lightning-input label="Enter First Number" onchange={handleFirstnumber}  value={fnumber}></lightning-input>
+        <lightning-input label="Enter Second Number"  onchange={handleSecondnumber} value={snumber} ></lightning-input>
+        <lightning-input label="Enter Third Number" onchange={handleThirdnumber}  value={tnumber}></lightning-input>
+
+        <lightning-button-group>
+        <lightning-button label="Find" variant="brand" onclick={handleCalculate}></lightning-button> 
+        <lightning-button label="Clear" onclick={handleClear}></lightning-button>
+         </lightning-button-group>
+    </lightning-card>
+</template>

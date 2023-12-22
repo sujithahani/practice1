@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Details" icon-name="utility:center_align_text">
+        <p>Name:{fullName}</p>
+        <p>Email:{Email}</p>
+        <lightning-input label="First Name" onchange={handleFirstName}></lightning-input>
+        <lightning-input label="Last Name" onchange={handleLastName} ></lightning-input>
+        <lightning-input label="Email" type="Email" onchange={handleEmail} ></lightning-input>
+        <lightning-button label="submit" onclick={handlesubmit}></lightning-button>
+    </lightning-card>
+</template>
